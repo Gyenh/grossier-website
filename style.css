@@ -1,0 +1,181 @@
+html
+{
+	background-color: #fefefe;
+}
+body
+{
+	font-family: "Open Sans", Arial, serif;
+	color: #454545;
+	font-size: 16px;
+	margin: auto;
+	max-width: 800px;
+	padding: 1em;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+.mfw 
+{
+ color:#117e69;
+}
+
+blockquote
+{
+	color: #11151a;
+}
+
+span.wg
+{
+	color: #c0392b;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+a
+{
+	color: #07a;
+}
+a:visited
+{
+	color: #941352;
+}
+
+.citneed
+{
+	vertical-align:top;
+ 	font-size:.7em;
+ 	padding-left:.3em;
+}
+small
+{
+	font-size: .4em;
+}
+div.ptitposi div.image-droite
+{
+	float: right;
+	width: 30%;
+	overflow: hidden;
+	margin-left: 1em;
+}
+div.ptitposi div.image-droite img 
+{
+ 	width:50%;	
+}
+div.ptitposi div.image-droite p.legende
+{
+	font-size: 7em;
+}
+div.ptitposi div.tright
+{
+	float: right;
+	width: 50%;
+}
+div.ptitposi div.tleft p:first-child 
+{
+ 	margin-top:0;
+}
+div.ptitposi:after 
+{
+ 	display:block;
+ 	content:"";
+ 	clear:both;
+}
+ul li img 
+{
+	height:1em;
+}
+blockquote
+{
+	color: #456;
+	margin-left: 0;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+blockquote span
+{
+	float: left;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	width: 80%;
+}
+blockquote author
+{
+	display: block;
+	clear: both;
+	font-size: .6em;
+	margin-left: 2.4rem;
+	font-style: oblique;
+	padding-top: 1em;
+	width: 80%;
+	margin-left: 15%;
+}
+blockquote author:before
+{
+	content: "-";
+	margin-right: 1em;
+	margin-right: inherit;
+}
+blockquote:before
+{
+	font-family: "Times New Roman", Times,Arial;
+	color: #666;
+	content: open-quote;
+	font-size: 2.2em;
+	font-weight: 600;
+	float: left;
+	margin-top: 0;
+	margin-right: .2rem;
+	width: 1.2rem;
+}
+blockquote:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+span.sb
+{
+	color: #00e;
+}
+span.sb,span.cv
+{
+	cursor: not-allowed;
+}
+span.cv
+{
+	color: #551a8b;
+}
+span.foufoufou
+{
+	color: #444;
+	font-weight: 700;
+}
+span.foufoufou:before
+{
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-left: .2em;
+	margin-right: .2em;
+	background-color: #444;
+}
+span.ffvffvffv
+{
+	color: #454545;
+	font-weight: 700;
+}
+span.ffvffvffv:before
+{
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-left: .2em;
+	margin-right: .2em;
+	background-color: #454545;
+}
+h2 img
+{
+	height: 1em;
+}
