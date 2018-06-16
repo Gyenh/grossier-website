@@ -179,3 +179,10 @@ h2 img
 {
 	height: 1em;
 }
+
+button.button
+{
+	position: fixed;
+	top: 5%;
+	right: 2%;
+}
